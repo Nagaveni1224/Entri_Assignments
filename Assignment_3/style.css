@@ -1,0 +1,68 @@
+body{
+margin:0;
+font-family:Arial;
+}
+.nagu{
+    background-color:burlywood;
+}
+.Question{
+    color: black;
+}
+.Answer{
+    color: blue;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:black;
+color:white;
+padding:10px 20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+.section{
+padding:30px;
+margin:20px;
+background:#f4f4f4;
+}
+.skills{
+display:flex;
+gap:20px;
+}
+
+.skill{
+background:rgb(92, 134, 164);
+padding:20px;
+flex:1;
+text-align:center;
+border:1px solid #131212;
+}
+.Container{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+
+.fly{
+background:lightpink;
+padding:20px;
+text-align:center;
+border:1px solid #ddd;
+}
+@media (max-width:600px){
+
+.skills{
+flex-direction:column;
+}
+
+.Container{
+grid-template-columns:1fr;
+}
+
+}
