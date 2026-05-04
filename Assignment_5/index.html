@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Bootstrap Page</a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <div class="row g-4">
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+
+                    <img class="card-img-top" src="NAGU.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">My Profile</h5>
+                        <p class="card-text">Hi, I'm Nagaveni G.I'm from Hospet. </p>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#infoModal">Read</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+
+                    <img class="card-img-top" src="NAGU.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Hobbies</h5>
+                        <p class="card-text">Playing Cricket, Basketball, Volleyball</p>
+
+                        <a href="#" class="btn btn btn-success" data-bs-toggle="modal" data-bs-target="#info">Read</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+
+                    <img class="card-img-top" src="NAGU.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Education</h5>
+                        <p class="card-text">I hold a bachelor degree in Computer Science and Engineering.</p>
+
+                        <a href="#" class="btn btn-secondary" data-bs-toggle="modal"
+                            data-bs-target="#infoModal1">Read</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="modal" id="infoModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">More Information</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        I'm from Hospet, Bellary District. Karnataka
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="info" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">More Information</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        I'm a State Level Basketball Player.</br>
+                        I'm a State Level Cricket Player.
+
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal" id="infoModal1" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">More Information</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        Sri Dharmasthala Manjunatheshwara College of Engineering and Technology. Dharwad.
+                    </p>
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
