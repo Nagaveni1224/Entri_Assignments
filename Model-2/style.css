@@ -1,0 +1,13 @@
+body {
+    background-color: #dee2e8;
+    font-family: Arial, sans-serif;
+}
+
+.form-box {
+    background-color: rgb(168, 153, 192);
+    width: 400px;
+}
+
+#message {
+    font-weight: bold;
+}
